@@ -30,7 +30,7 @@ When converting glTF->USD->DCC, Apple's USDPython tools will better preserve the
 *   Install [PIL](https://pillow.readthedocs.io).
     *   `pip install Pillow`
 *   Download `usd_from_gltf` source to `{UFG_SRC}`.
-*   Install to `{UFG_BUILD}` (with optional test data):
+*   Install to `{UFG_BUILD}` (with optional test data) with x64 Native Tools Command Prompt for VS 2022:
 
         python {UFG_SRC}/tools/ufginstall/ufginstall.py {UFG_BUILD} {USD} --testdata
 *   *(Linux/OSX)* Set `LD_LIBRARY_PATH` to the USD and usd_from_gltf `lib` directories. See ufginstall script output for the paths.
